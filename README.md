@@ -1,6 +1,6 @@
 D2小仓库
 ====
-###### 包含腿腿的代码，QQ和正气的精神力<br>
+包含腿腿的代码，QQ和正气的精神力<br>
 <br>
 
 ### ISBI 2019 SegTHOR Challenge：<br>
@@ -16,15 +16,4 @@ SegTHOR挑战解决了计算机断层扫描（CT）图像中处于风险分割�
 
 ### 我们的任务： <br>
 <br>
-构建一个多器官CT切片分割模型，`鼓励从decoder到encoder添加一些feedback/recurrent link[26]以获得更好的性能`。<br>
-[26]Lei Xu. An overview and perspectives on bidirectional intelligence: Lmser duality, double ia harmony, and causal computation. IEEE/CAA Journal of Automatica Sinica, 6(4):865{893, 2019. <br>
-<br>
-
-### 数据集下载地址： <br>
-<br>
-https://jbox.sjtu.edu.cn/l/noXQob (password: eidr) <br>
-<br>
-数据集中的每个scan的大小为512x512x（150x284）体素。 <br>
-整个数据集包括40个案例，其中第1-30个是训练集，而第31-40个是测试集。 <br>
-您可能需要一些对这些数据进行预处理。<br>
-<br>
+构建一个多器官CT切片分割模
