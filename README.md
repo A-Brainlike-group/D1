@@ -1,6 +1,6 @@
 D2小仓库
 ====
-包含腿腿的代码，QQ和正气的精神力<br>
+###### 包含腿腿的代码，QQ和正气的精神力<br>
 <br>
 
 ### ISBI 2019 SegTHOR Challenge：<br>
@@ -28,7 +28,3 @@ https://jbox.sjtu.edu.cn/l/noXQob (password: eidr) <br>
 整个数据集包括40个案例，其中第1-30个是训练集，而第31-40个是测试集。 <br>
 您可能需要一些对这些数据进行预处理。<br>
 <br>
-
-### 训练时间预估: <br>
-<br>
-大概两天<br>
