@@ -17,7 +17,7 @@ SegTHOR挑战解决了计算机断层扫描（CT）图像中处于风险分割�
 ### 我们的任务： <br>
 <br>
 构建一个多器官CT切片分割模型。 <br>
-##### 鼓励从decoder到encoder添加一些feedback/recurrent link[26]以获得更好的性能。<br>
+###### 鼓励从decoder到encoder添加一些feedback/recurrent link[26]以获得更好的性能。 <br>
 [26]Lei Xu. An overview and perspectives on bidirectional intelligence: Lmser duality, double ia harmony, and causal computation. IEEE/CAA Journal of Automatica Sinica, 6(4):865{893, 2019. <br>
 <br>
 
