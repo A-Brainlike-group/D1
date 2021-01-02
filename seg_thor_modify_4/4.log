@@ -1,0 +1,236 @@
+nohup: ignoring input
+/home/data/mahaoran/software/anaconda3/lib/python3.7/site-packages/torch/nn/_reduction.py:43: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+Namespace(batch_size=1, data_path='/home/data/mahaoran/lei_nao_data/data_npy/', epochs=120, gpu='1', if_closs=0, if_dependent=0, loss_name='CombinedLoss', lr=0.01, model_name='ResUNet101_lmser_oneloop', momentum=0.9, n_class=5, patient=10, resume='/home/mahaoran/lei_nao/seg_thor_modify_2/SavePath/ResUNet101/ResUNet101/0/19.ckpt', save_dir='SavePath/ResUNet101_lmser_oneloop/ResUNet101_lmser_oneloop/0', start_epoch=1, test_flag=0, untest_epoch=10, weight_decay=1e-05)
+current learning rate is 0.009500
+using gpu 1
+the data length is 5430
+Epoch[20], Batch [1], total loss is 0.613582, using 1389.9 s!
+Epoch[20], [precision=0.3855, -->0.528, -->0.217, -->0.280, -->0.517]
+the adaptive thresholds is [0.4334, 0.4960, 0.4469, 0.5098]
+the data length is 1910
+***************************************************************************
+Esophagus --> Global dice is [0.47840], TPR is [0.61920], Precision is [0.38977] 
+heart    --> Global dice is [0.10848], TPR is [0.12304], Precision is [0.09700] 
+trachea  --> Global dice is [0.38160], TPR is [0.70828], Precision is [0.26115] 
+aorta    --> Global dice is [0.20426], TPR is [0.88463], Precision is [0.11546] 
+Epoch[20], [precision=0.3881, -->0.551, -->0.219, -->0.288, -->0.494], using 296.8 s!
+Epoch[20], [recall=1.0000, -->1.000, -->1.000, -->1.000, -->1.000], using 296.8 s!
+Epoch[20], [total loss=0.657841], mean_dice=0.2932, using 296.8 s!
+***************************************************************************
+************************ dynamic threshold saved successful ************************** !
+************************ model saved successful ************************** !
+current learning rate is 0.009025
+Epoch[21], Batch [1], total loss is 0.554669, using 1349.1 s!
+Epoch[21], [precision=0.3930, -->0.529, -->0.217, -->0.307, -->0.519]
+the adaptive thresholds is [0.4318, 0.5041, 0.4477, 0.5182]
+the data length is 1910
+***************************************************************************
+Esophagus --> Global dice is [0.51708], TPR is [0.57102], Precision is [0.47245] 
+heart    --> Global dice is [0.21654], TPR is [0.40363], Precision is [0.14796] 
+trachea  --> Global dice is [0.51070], TPR is [0.62743], Precision is [0.43059] 
+aorta    --> Global dice is [0.31178], TPR is [0.55720], Precision is [0.21644] 
+Epoch[21], [precision=0.3829, -->0.512, -->0.220, -->0.305, -->0.495], using 287.7 s!
+Epoch[21], [recall=0.9192, -->0.849, -->1.000, -->0.846, -->0.982], using 287.7 s!
+Epoch[21], [total loss=0.641442], mean_dice=0.3890, using 287.7 s!
+***************************************************************************
+************************ model saved successful ************************** !
+current learning rate is 0.008574
+Epoch[22], Batch [1], total loss is 0.541660, using 1348.8 s!
+Epoch[22], [precision=0.3924, -->0.528, -->0.217, -->0.304, -->0.521]
+the adaptive thresholds is [0.4296, 0.5070, 0.4487, 0.5183]
+the data length is 1910
+***************************************************************************
+Esophagus --> Global dice is [0.47640], TPR is [0.49343], Precision is [0.46051] 
+heart    --> Global dice is [0.22094], TPR is [0.22537], Precision is [0.21669] 
+trachea  --> Global dice is [0.26031], TPR is [0.84136], Precision is [0.15397] 
+aorta    --> Global dice is [0.48634], TPR is [0.74504], Precision is [0.36099] 
+Epoch[22], [precision=0.3821, -->0.502, -->0.220, -->0.317, -->0.490], using 289.3 s!
+Epoch[22], [recall=0.9064, -->0.789, -->1.000, -->0.851, -->0.985], using 289.3 s!
+Epoch[22], [total loss=0.633079], mean_dice=0.3610, using 289.3 s!
+***************************************************************************
+************************ model saved successful ************************** !
+current learning rate is 0.008145
+Epoch[23], Batch [1], total loss is 0.535445, using 1356.5 s!
+Epoch[23], [precision=0.3948, -->0.529, -->0.217, -->0.310, -->0.524]
+the adaptive thresholds is [0.4293, 0.5070, 0.4499, 0.5175]
+the data length is 1910
+***************************************************************************
+Esophagus --> Global dice is [0.52690], TPR is [0.55710], Precision is [0.49981] 
+heart    --> Global dice is [0.13820], TPR is [0.13281], Precision is [0.14405] 
+trachea  --> Global dice is [0.40008], TPR is [0.69626], Precision is [0.28068] 
+aorta    --> Global dice is [0.42056], TPR is [0.77814], Precision is [0.28815] 
+Epoch[23], [precision=0.3942, -->0.535, -->0.219, -->0.368, -->0.455], using 306.9 s!
+Epoch[23], [recall=0.8595, -->0.734, -->1.000, -->0.895, -->0.809], using 306.9 s!
+Epoch[23], [total loss=0.642641], mean_dice=0.3714, using 306.9 s!
+***************************************************************************
+************************ dynamic threshold saved successful ************************** !
+************************ model saved successful ************************** !
+current learning rate is 0.007738
+Epoch[24], Batch [1], total loss is 0.530853, using 1365.9 s!
+Epoch[24], [precision=0.3934, -->0.527, -->0.217, -->0.308, -->0.521]
+the adaptive thresholds is [0.4297, 0.5079, 0.4509, 0.5161]
+the data length is 1910
+***************************************************************************
+Esophagus --> Global dice is [0.43448], TPR is [0.56513], Precision is [0.35290] 
+heart    --> Global dice is [0.25708], TPR is [0.47270], Precision is [0.17655] 
+trachea  --> Global dice is [0.47359], TPR is [0.58236], Precision is [0.39906] 
+aorta    --> Global dice is [0.53809], TPR is [0.81436], Precision is [0.40179] 
+Epoch[24], [precision=0.4005, -->0.551, -->0.234, -->0.329, -->0.488], using 303.4 s!
+Epoch[24], [recall=0.9441, -->0.999, -->0.995, -->0.828, -->0.954], using 303.4 s!
+Epoch[24], [total loss=0.625979], mean_dice=0.4258, using 303.4 s!
+***************************************************************************
+************************ dynamic threshold saved successful ************************** !
+************************ model saved successful ************************** !
+current learning rate is 0.007351
+Epoch[25], Batch [1], total loss is 0.527735, using 1362.0 s!
+Epoch[25], [precision=0.3989, -->0.527, -->0.217, -->0.329, -->0.523]
+the adaptive thresholds is [0.4287, 0.5093, 0.4519, 0.5166]
+the data length is 1910
+***************************************************************************
+Esophagus --> Global dice is [0.54514], TPR is [0.58987], Precision is [0.50672] 
+heart    --> Global dice is [0.26657], TPR is [0.28579], Precision is [0.24977] 
+trachea  --> Global dice is [0.44974], TPR is [0.44516], Precision is [0.45442] 
+aorta    --> Global dice is [0.45361], TPR is [0.90305], Precision is [0.30287] 
+Epoch[25], [precision=0.4002, -->0.526, -->0.219, -->0.362, -->0.493], using 301.4 s!
+Epoch[25], [recall=0.9295, -->0.873, -->1.000, -->0.880, -->0.965], using 301.4 s!
+Epoch[25], [total loss=0.643850], mean_dice=0.4288, using 301.4 s!
+***************************************************************************
+************************ model saved successful ************************** !
+current learning rate is 0.006983
+Epoch[26], Batch [1], total loss is 0.524759, using 1360.6 s!
+Epoch[26], [precision=0.4138, -->0.527, -->0.217, -->0.384, -->0.527]
+the adaptive thresholds is [0.4293, 0.5090, 0.4534, 0.5171]
+the data length is 1910
+***************************************************************************
+Esophagus --> Global dice is [0.53172], TPR is [0.45649], Precision is [0.63664] 
+heart    --> Global dice is [0.33477], TPR is [0.32492], Precision is [0.34523] 
+trachea  --> Global dice is [0.51727], TPR is [0.59453], Precision is [0.45778] 
+aorta    --> Global dice is [0.54250], TPR is [0.73765], Precision is [0.42900] 
+Epoch[26], [precision=0.3988, -->0.538, -->0.228, -->0.344, -->0.485], using 301.6 s!
+Epoch[26], [recall=0.9249, -->0.917, -->0.988, -->0.849, -->0.945], using 301.6 s!
+Epoch[26], [total loss=0.633504], mean_dice=0.4816, using 301.6 s!
+***************************************************************************
+************************ model saved successful ************************** !
+current learning rate is 0.006634
+Epoch[27], Batch [1], total loss is 0.523539, using 1361.9 s!
+Epoch[27], [precision=0.4118, -->0.527, -->0.217, -->0.384, -->0.520]
+the adaptive thresholds is [0.4297, 0.5078, 0.4530, 0.5158]
+the data length is 1910
+***************************************************************************
+Esophagus --> Global dice is [0.46637], TPR is [0.35981], Precision is [0.66258] 
+heart    --> Global dice is [0.11180], TPR is [0.09051], Precision is [0.14618] 
+trachea  --> Global dice is [0.43422], TPR is [0.33159], Precision is [0.62888] 
+aorta    --> Global dice is [0.67720], TPR is [0.73198], Precision is [0.63005] 
+Epoch[27], [precision=0.3972, -->0.536, -->0.218, -->0.339, -->0.495], using 305.4 s!
+Epoch[27], [recall=0.9631, -->0.940, -->0.955, -->0.987, -->0.970], using 305.4 s!
+Epoch[27], [total loss=0.658216], mean_dice=0.4224, using 305.4 s!
+***************************************************************************
+************************ model saved successful ************************** !
+current learning rate is 0.006302
+Epoch[28], Batch [1], total loss is 0.522263, using 1361.0 s!
+Epoch[28], [precision=0.4034, -->0.527, -->0.217, -->0.344, -->0.526]
+the adaptive thresholds is [0.4289, 0.5085, 0.4525, 0.5164]
+the data length is 1910
+***************************************************************************
+Esophagus --> Global dice is [0.52923], TPR is [0.48126], Precision is [0.58782] 
+heart    --> Global dice is [0.03884], TPR is [0.02160], Precision is [0.19226] 
+trachea  --> Global dice is [0.58347], TPR is [0.68155], Precision is [0.51007] 
+aorta    --> Global dice is [0.42492], TPR is [0.82633], Precision is [0.28599] 
+Epoch[28], [precision=0.3981, -->0.552, -->0.219, -->0.340, -->0.482], using 303.0 s!
+Epoch[28], [recall=0.9592, -->0.991, -->1.000, -->0.929, -->0.916], using 303.0 s!
+Epoch[28], [total loss=0.649346], mean_dice=0.3941, using 303.0 s!
+***************************************************************************
+************************ model saved successful ************************** !
+current learning rate is 0.005987
+Epoch[29], Batch [1], total loss is 0.520544, using 1360.3 s!
+Epoch[29], [precision=0.4028, -->0.527, -->0.217, -->0.341, -->0.526]
+the adaptive thresholds is [0.4280, 0.5094, 0.4527, 0.5155]
+the data length is 1910
+***************************************************************************
+Esophagus --> Global dice is [0.45206], TPR is [0.47030], Precision is [0.43518] 
+heart    --> Global dice is [0.20908], TPR is [0.16133], Precision is [0.29697] 
+trachea  --> Global dice is [0.55291], TPR is [0.70781], Precision is [0.45364] 
+aorta    --> Global dice is [0.66762], TPR is [0.71010], Precision is [0.62994] 
+Epoch[29], [precision=0.4060, -->0.551, -->0.218, -->0.361, -->0.494], using 305.8 s!
+Epoch[29], [recall=0.9555, -->0.997, -->0.883, -->0.953, -->0.989], using 305.8 s!
+Epoch[29], [total loss=0.620785], mean_dice=0.4704, using 305.8 s!
+***************************************************************************
+************************ dynamic threshold saved successful ************************** !
+************************ model saved successful ************************** !
+current learning rate is 0.005688
+Epoch[30], Batch [1], total loss is 0.519429, using 1359.3 s!
+Epoch[30], [precision=0.4175, -->0.527, -->0.217, -->0.389, -->0.537]
+the adaptive thresholds is [0.4273, 0.5089, 0.4543, 0.5165]
+the data length is 1910
+***************************************************************************
+Esophagus --> Global dice is [0.47978], TPR is [0.42062], Precision is [0.55830] 
+heart    --> Global dice is [0.17256], TPR is [0.13659], Precision is [0.23425] 
+trachea  --> Global dice is [0.58935], TPR is [0.59645], Precision is [0.58242] 
+aorta    --> Global dice is [0.47958], TPR is [0.88749], Precision is [0.32856] 
+Epoch[30], [precision=0.3857, -->0.523, -->0.219, -->0.323, -->0.476], using 303.0 s!
+Epoch[30], [recall=0.8373, -->0.815, -->0.641, -->0.991, -->0.902], using 303.0 s!
+Epoch[30], [total loss=0.648368], mean_dice=0.4303, using 303.0 s!
+***************************************************************************
+************************ model saved successful ************************** !
+current learning rate is 0.005404
+Epoch[31], Batch [1], total loss is 0.519040, using 1362.6 s!
+Epoch[31], [precision=0.4218, -->0.527, -->0.217, -->0.411, -->0.532]
+the adaptive thresholds is [0.4288, 0.5080, 0.4548, 0.5152]
+the data length is 1910
+***************************************************************************
+Esophagus --> Global dice is [0.50912], TPR is [0.40234], Precision is [0.69307] 
+heart    --> Global dice is [0.27717], TPR is [0.25123], Precision is [0.30909] 
+trachea  --> Global dice is [0.34387], TPR is [0.26810], Precision is [0.47933] 
+aorta    --> Global dice is [0.44270], TPR is [0.59827], Precision is [0.35134] 
+Epoch[31], [precision=0.3975, -->0.549, -->0.208, -->0.339, -->0.494], using 304.0 s!
+Epoch[31], [recall=0.8975, -->0.991, -->0.859, -->0.740, -->1.000], using 304.0 s!
+Epoch[31], [total loss=0.668267], mean_dice=0.3932, using 304.0 s!
+***************************************************************************
+************************ model saved successful ************************** !
+current learning rate is 0.005133
+Epoch[32], Batch [1], total loss is 0.518138, using 1362.4 s!
+Epoch[32], [precision=0.4171, -->0.527, -->0.217, -->0.385, -->0.540]
+the adaptive thresholds is [0.4297, 0.5075, 0.4543, 0.5159]
+the data length is 1910
+***************************************************************************
+Esophagus --> Global dice is [0.54457], TPR is [0.45430], Precision is [0.67961] 
+heart    --> Global dice is [0.22176], TPR is [0.25796], Precision is [0.19447] 
+trachea  --> Global dice is [0.42423], TPR is [0.35980], Precision is [0.51678] 
+aorta    --> Global dice is [0.46634], TPR is [0.74818], Precision is [0.33874] 
+Epoch[32], [precision=0.3873, -->0.521, -->0.217, -->0.318, -->0.494], using 304.9 s!
+Epoch[32], [recall=0.8719, -->0.863, -->0.629, -->0.996, -->0.999], using 304.9 s!
+Epoch[32], [total loss=0.654927], mean_dice=0.4142, using 304.9 s!
+***************************************************************************
+************************ model saved successful ************************** !
+current learning rate is 0.004877
+Epoch[33], Batch [1], total loss is 0.517289, using 1361.8 s!
+Epoch[33], [precision=0.4250, -->0.527, -->0.217, -->0.409, -->0.548]
+the adaptive thresholds is [0.4285, 0.5073, 0.4554, 0.5163]
+the data length is 1910
+***************************************************************************
+Esophagus --> Global dice is [0.57487], TPR is [0.51332], Precision is [0.65319] 
+heart    --> Global dice is [0.08224], TPR is [0.04569], Precision is [0.41128] 
+trachea  --> Global dice is [0.58326], TPR is [0.58982], Precision is [0.57685] 
+aorta    --> Global dice is [0.47344], TPR is [0.81150], Precision is [0.33421] 
+Epoch[33], [precision=0.3881, -->0.540, -->0.219, -->0.327, -->0.466], using 307.2 s!
+Epoch[33], [recall=0.8105, -->0.873, -->0.486, -->0.998, -->0.885], using 307.2 s!
+Epoch[33], [total loss=0.645136], mean_dice=0.4285, using 307.2 s!
+***************************************************************************
+************************ model saved successful ************************** !
+current learning rate is 0.004633
+Epoch[34], Batch [1], total loss is 0.516383, using 1363.0 s!
+Epoch[34], [precision=0.4235, -->0.527, -->0.217, -->0.396, -->0.555]
+the adaptive thresholds is [0.4292, 0.5077, 0.4553, 0.5166]
+the data length is 1910
+***************************************************************************
+Esophagus --> Global dice is [0.52245], TPR is [0.40439], Precision is [0.73788] 
+heart    --> Global dice is [0.48503], TPR is [0.51375], Precision is [0.45934] 
+trachea  --> Global dice is [0.49279], TPR is [0.38370], Precision is [0.68856] 
+aorta    --> Global dice is [0.63559], TPR is [0.67407], Precision is [0.60127] 
+Epoch[34], [precision=0.4003, -->0.551, -->0.219, -->0.334, -->0.496], using 301.0 s!
+Epoch[34], [recall=0.9623, -->1.000, -->0.986, -->0.871, -->0.993], using 301.0 s!
+Epoch[34], [total loss=0.643079], mean_dice=0.5340, using 301.0 s!
+***************************************************************************
+************************ model saved successful ************************** !
+current learning rate is 0.004401
